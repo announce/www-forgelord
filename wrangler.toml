@@ -1,0 +1,9 @@
+"$schema" = "./node_modules/wrangler/config-schema.json"
+name = "www-forgelord"
+main = "./workers/app.ts"
+upload_source_maps = true
+compatibility_date = "2025-10-08"
+compatibility_flags = [ "nodejs_compat" ]
+
+[observability]
+enabled = true
